@@ -17,8 +17,8 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             Hi, I'm Deolu Joseph
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            I'm a Frontend Developer, who loves what he does
+          <p className="text-gray-500 text-xl py-4 max-w-md">
+            I'm a Frontend Developer.
           </p>
 
           <div>
