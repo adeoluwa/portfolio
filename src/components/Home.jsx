@@ -1,7 +1,5 @@
 import React from 'react';
 
-// import { init } from 'ityped';
-
 import { Link } from 'react-scroll';
 
 import HeroImage from '../assets/heroImage3.png';
