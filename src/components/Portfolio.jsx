@@ -10,6 +10,8 @@ import todo from '../assets/portfolio/todo-list.png';
 
 import weatherApp from '../assets/portfolio/afefe3.png';
 
+import werido from '../assets/portfolio/werido.png';
+
 const Portfolio = () => {
   const portfolios = [
     {
@@ -41,6 +43,12 @@ const Portfolio = () => {
       src: weatherApp,
       demo: 'https://afefe.netlify.app/',
       repo: 'https://github.com/adeoluwa/weather-app',
+    },
+    {
+      id: 6,
+      src: werido,
+      demo: 'https://weirdo-fc.netlify.app/',
+      repo: 'https://github.com/adeoluwa/weirdos-NFT/tree/master/src',
     },
   ];
 
