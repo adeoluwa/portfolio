@@ -18,37 +18,37 @@ const Portfolio = () => {
       id: 1,
       src: netclone,
       demo: 'https://netclone-17863.firebaseapp.com/',
-      repo: 'https://github.com/adeoluwa/Netclone',
+      // repo: 'https://github.com/adeoluwa/Netclone',
     },
     {
       id: 2,
       src: otkClothing,
       demo: 'https://otk-clothing.netlify.app/',
-      repo: 'https://github.com/adeoluwa/otk-clothing',
+      // repo: 'https://github.com/adeoluwa/otk-clothing',
     },
     {
       id: 3,
       src: firegram,
       demo: 'https://firebase-gram.netlify.app/',
-      repo: 'https://github.com/adeoluwa/Firegram',
+      // repo: 'https://github.com/adeoluwa/Firegram',
     },
     {
       id: 4,
       src: todo,
       demo: 'https://todo-l-app.netlify.app/',
-      repo: 'https://github.com/adeoluwa/Todo-App',
+      // repo: 'https://github.com/adeoluwa/Todo-App',
     },
     {
       id: 5,
       src: weatherApp,
       demo: 'https://afefe.netlify.app/',
-      repo: 'https://github.com/adeoluwa/weather-app',
+      // repo: 'https://github.com/adeoluwa/weather-app',
     },
     {
       id: 6,
       src: werido,
       demo: 'https://weirdo-fc.netlify.app/',
-      repo: 'https://github.com/adeoluwa/weirdos-NFT/tree/master/src',
+      // repo: 'https://github.com/adeoluwa/weirdos-NFT/tree/master/src',
     },
   ];
 
@@ -69,7 +69,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
-          {portfolios.map(({ id, src, demo, repo }) => (
+          {portfolios.map(({ id, src, demo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -83,11 +83,11 @@ const Portfolio = () => {
                   </button>
                 </a>
 
-                <a href={repo} target="_blank" rel="noreferrer">
+                {/* <a href={repo} target="_blank" rel="noreferrer">
                   <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                     Code
                   </button>
-                </a>
+                </a> */}
               </div>
             </div>
           ))}
