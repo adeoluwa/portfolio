@@ -18,7 +18,7 @@ const Home = () => {
             Hi, I'm Deolu Joseph
           </h2>
           <p className="text-gray-500 text-xl py-4 max-w-md">
-            I'm a Frontend Developer.
+            I'm a Web Developer (Backend).
           </p>
 
           <div>
