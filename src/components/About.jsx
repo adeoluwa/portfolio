@@ -14,8 +14,8 @@ const About = () => {
 
           <br />
           <p className="text-xl text-left leading-normal hover:text-center mt-20">
-            "Hi there, I’m a front-end developer based in Nigeria, I enjoy
-            building beautiful and functional user interface, web apps and
+            "Hi there, I’m a web developer based in Nigeria, I enjoy
+            building beautiful, functional web apps and
             websites. I am an enthusiastic, self-motivated and hard working
             person. I am a team worker and adaptable to challenging situations.
             I am able to work well both in a team environment as well as using
